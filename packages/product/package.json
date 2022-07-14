@@ -1,0 +1,18 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "main": "./src/product-list.js",
+  "author": "Alessandro Mancini <almancini@sogei.it>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "serve": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.3",
+    "single-spa-vue": "^2.5.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuelidate": "^0.7.6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "serve": "ng serve --configuration development",
+    "build": "ng build checkout --configuration development"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0"
+  },
+  "dependencies": {
+    "@angular/animations": "~12.2.0",
+    "@angular/common": "~12.2.0",
+    "@angular/compiler": "~12.2.0",
+    "@angular/core": "~12.2.0",
+    "@angular/forms": "~12.2.0",
+    "@angular/platform-browser": "~12.2.0",
+    "@angular/platform-browser-dynamic": "~12.2.0",
+    "@angular/router": "~12.2.0",
+    "rxjs": "~6.6.0",
+    "single-spa": "^5.9.3",
+    "single-spa-angular": "5.0.2",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  }
+}

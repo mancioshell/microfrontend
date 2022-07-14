@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Microfrontend</title>
+  </head>
+
+  <body>
+    <template id="single-spa-layout">
+      <single-spa-router>
+        <div class="container-fluid">
+          <nav>
+            <application name="header"></application>
+          </nav>
+          <div style="min-height: 600px">
+            <route path="products">
+              <application name="products"></application>
+            </route>
+            <route path="checkout">
+              <application name="checkout"></application>
+            </route>
+            <route path="profile">
+              <application name="profile"></application>
+            </route>
+            <route path="signin">
+              <application name="signin"></application>
+            </route>
+          </div>
+          <footer>
+            <application name="footer"></application>
+          </footer>
+          <redirect from="/" to="/products"></redirect>
+        </div>
+      </single-spa-router>
+    </template>
+
+    <script defer src="/dist/appshell.min.js"></script>
+    <script defer src="/microfrontend/layout/layout.min.js"></script>
+    <script defer src="/microfrontend/cart/cart.min.js"></script>
+    <script defer src="/microfrontend/login/signin.min.js"></script>
+    <script defer src="/microfrontend/products/products.min.js"></script>
+    <script defer src="/microfrontend/profile/profile.min.js"></script>
+    <script defer src="/microfrontend/checkout/checkout.min.js"></script> 
+
+  </body>
+</html>

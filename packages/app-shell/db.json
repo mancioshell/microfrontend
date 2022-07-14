@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mela",
+      "description": "Una succulenta mela di strega",
+      "price": 3,
+      "img": "apple"
+    },
+    {
+      "id": 2,
+      "name": "Uva",
+      "description": "L'uva di Bacco",
+      "price": 6,
+      "img": "grape"
+    },
+    {
+      "id": 3,
+      "name": "Mango",
+      "description": "A me sembra più un limone.",
+      "price": 5,
+      "img": "mango"
+    },
+    {
+      "id": 4,
+      "name": "Arancia",
+      "description": "Lo sapevate che i Kiwi contengono molta più vitamina C delle Arance ?",
+      "price": 3,
+      "img": "orange"
+    },
+    {
+      "id": 5,
+      "name": "Fragola",
+      "description": "Ma quanto manca all'estate?",
+      "price": 12,
+      "img": "strawberry"
+    }
+  ],
+  "checkouts": [
+    {
+      "id": 3,
+      "name": "Mango",
+      "description": "A me sembra più un limone.",
+      "price": 5,
+      "img": "mango",
+      "count": 1
+    },
+    {
+      "id": 1,
+      "name": "Mela",
+      "description": "Una succulenta mela di strega",
+      "price": 3,
+      "img": "apple",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "name": "Fragola",
+      "description": "Ma quanto manca all'estate?",
+      "price": 12,
+      "img": "strawberry",
+      "count": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@provider.it",
+      "password": "$2a$10$Ex1K7zAUft2iN7GepCZh/OEzvPrAOBvNNlHroyb73ELyvPwvREoX.",
+      "name": "Alessandro",
+      "surname": "Mancini",
+      "role": "Admin",
+      "id": 1
+    }
+  ]
+}

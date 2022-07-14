@@ -1,0 +1,14 @@
+<div class="row mt-5 mb-5">
+  <div class="col-sm-6 col-md-8 offset-md-1">
+    <ul class="list-group mb-3">
+      <product
+        *ngFor="let product of productList"
+        [product]="product"
+        (remove)="onRemove($event)"
+      ></product>
+    </ul>
+  </div>
+  <div class="col-sm-4 col-md-2">
+    <p><b>Totale: </b> {{ tot }} $</p>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Docs",
+  "main": "index.js",
+  "author": "Alessandro Mancini <almancini@sogei.it>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "serve": "webpack serve --mode development"
+  }
+}
